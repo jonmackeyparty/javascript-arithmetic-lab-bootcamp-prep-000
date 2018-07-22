@@ -47,7 +47,11 @@ describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
     expect(makeInt(a.toString())).toEqual(a)
   })
-
+function parseBase(n){
+  return parseFloat(n)
+}
+describe('parseBase'),
+  function()
   it('assumes base 10', function() {
     expect(makeInt('0x2328')).toEqual(0)
   })
