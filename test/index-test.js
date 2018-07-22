@@ -35,6 +35,7 @@ it('inc(n) increments n and returns the result', function() {
   expect(inc(a)).toEqual(a + 1)
 })
 function dec(n){
+  var n = 147
   return (n --)
 }
 it('dec(n) decrements n and returns the result', function() {
