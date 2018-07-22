@@ -29,13 +29,13 @@ it('divide(a, b) divides a by b and returns the result', function() {
   expect(divide(a, b)).toEqual(a / b)
 })
 function inc(n){
-  return (n)++
+  return (n ++)
 }
 it('inc(n) increments n and returns the result', function() {
   expect(inc(a)).toEqual(a + 1)
 })
 function dec(n){
-  return (n)--
+  return (n --)
 }
 it('dec(n) decrements n and returns the result', function() {
   expect(dec(a)).toEqual(a - 1)
